@@ -1,0 +1,52 @@
+/* Three ways of styling  */
+
+/* Inner styling
+Internal styling
+External styling */
+
+/* Block tags
+inline tags  */
+  
+
+/* external styling */
+p{
+    text-transform: capitalize;
+    width: 600;
+    font-style: italic;
+    color: blue;
+}
+
+li{
+    font-style: italic;
+    
+}
+
+/* selectors  */
+
+
+ *{
+    margin: 50px;
+}
+
+
+.Player_list{
+    border: 4px dashed #ccc;
+    margin: 40 auto;
+}
+
+#Goat{
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+/* div > p{
+    color: darkgreen;
+} */
+
+div p{
+    color: darkgreen
+}
+
+h1 + p{
+    font-size: x-large;
+}
