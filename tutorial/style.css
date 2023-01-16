@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    border: 4px red solid;
+   
+    margin: 50px;
+    padding: 0 20px;
+}
+
+
+
+.block{
+    border: 4px solid blue;
+    padding: 10px;
+    margin: 0px 20px;
+
+}
+#one {
+    margin: 10px 0px 0px 0px;
+}
+
+#two {
+    margin: 10px 0px;
+}
+
+#three {
+    margin: 0 0 10px 0;
+}
+
+
+
+
+.click{
+    border: 4px;
+    border-style: solid;
+    border-color: red;
+}
+
+.volume{
+    border: 4px darkblue solid;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+#four{
+    margin: 10px;
+}
+
+#five{
+    margin: 30px;
+}
+
+#six{
+    margin: 10px;
+}
+
+span {
+    display: block;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px;
+    
+}

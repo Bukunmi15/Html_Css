@@ -1,0 +1,254 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+ .main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+    top: 0px;
+ }
+
+ .main ul{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    margin: 20px;
+
+ }
+
+ ul li a{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+    transition: all 1s ease;
+ }
+ 
+
+ ul li a:hover{
+    background-color:  red;
+    color: black;
+    text-shadow: 0px 0px 20px 0px;
+    margin: 90px;
+ }
+
+
+ #home{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+ }
+
+ /* #home img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ } */
+
+ #home::before{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-image: url(https://images.unsplash.com/photo-1673702540498-d655e4153cc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNzR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+ }
+
+ .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ .name{
+    font-family: century;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 55px;
+ }
+
+ .name span{
+    color: rgb(240, 268, 85);
+ }
+
+ .btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    outline: none;
+    transition: 1s ease;
+ }
+
+ .btn:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px  30px #fff ;
+ }
+
+ #about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+ }
+
+ #pics{
+    display: flex;
+ }
+
+ #pics img{
+    width: 400px;
+    height: 350px;
+ }
+
+ .intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+ }
+ .intro h2{
+    font-size: 2rem;
+    margin-bottom: 25px;
+ }
+
+
+ #portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 25px;
+    margin-top: 30px;
+
+ }
+
+ .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 25px;
+ }
+
+ .gallery img{
+    width: 350px;
+    height: 250px;
+    margin: 25px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.main {
+    border: 2px solid red;
+    padding: 5px;
+    width: 600px;
+
+    margin: 20px;
+
+}
+.container {
+    /* border: 2px ; */
+/* } */
+/* 
+
+.box {
+    border: 2px green solid; */
+    /* margin: 2px; */
+    /* height: 100px; */
+    /* width: 100px; */
+    /* display: flex;
+    flex-direction: row; */
+/* 
+} */
+
+/* #one {
+    text-align: center;
+}
+#two {
+    border: 2px green solid;
+}
+
+#three {
+    border: 2px green solid;
+}
+
+#four {
+    border: 2px green solid;
+}
+
+#five {
+    border: 2px green solid;
+} */
+
+
+/* 
+.arrow-box {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-font {
+  font-size: 30px;
+  color: black;
+}
+
+.arrow-box:hover{
+    background-color: #ccc;
+}
+This will change the backgro
+
+ */ 
